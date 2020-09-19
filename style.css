@@ -1,0 +1,143 @@
+html {
+  box-sizing: border-box;
+}
+*,
+*::before,
+*::after {
+  box-sizing: inherit;
+}
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: normal;
+  background: lightgray;
+}
+
+.wrapper {
+  width: 1000px;
+  margin: 0 auto;
+}
+
+.header {
+  height: 180px;
+  background: #7279d8;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.header-wrapper {
+  margin-left: 150px;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+}
+
+.header img {
+  margin: 5px 0 5px 0;
+  width: 140px;
+  object-fit: contain;
+}
+
+.text-wrapper {
+  margin: 5px 0 5px 20px;
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+}
+
+.position-text {
+  font-size: 24px;
+  font-weight: bold;
+  text-align: left;
+  letter-spacing: 1px;
+}
+
+.header-heading {
+  font-size: 36px;
+  font-weight: bold;
+  letter-spacing: 3px;
+  color: white;
+  text-align: left;
+}
+.section {
+  height: auto;
+  background-color: #ffffff;
+  display: flex;
+  flex-wrap: wrap;
+  padding-top: 20px;
+}
+
+.section:first-child {
+  padding-top: 50px;
+}
+
+.section:last-child {
+  padding-bottom: 50px;
+}
+
+.section-wrapper {
+  margin-left: 150px;
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: space-between;
+}
+
+.section-header {
+  font-size: 28px;
+  font-weight: bold;
+  color: #4c57d8;
+  padding: 20px 0 20px 0;
+}
+
+.section-list {
+  font-size: 18px;
+}
+
+.list-item {
+  padding: 0px 0px 10px 25px;
+}
+
+.contacts {
+  height: auto;
+  background-color: white;
+}
+
+.list-heading {
+  font-size: 20px;
+  font-weight: bold;
+  color: #4380d3;
+}
+
+.nested-list {
+  font-size: 18px;
+  font-weight: normal;
+  color: #000000;
+}
+
+.nested-item {
+  padding: 0 0px 10px 25px;
+}
+
+.nested-item:first-child {
+  padding-top: 10px;
+}
+
+.post-text {
+  font-size: 18px;
+}
+
+.footer {
+  height: 40px;
+  background: #7279d8;
+  font-size: 16px;
+  font-weight: bold;
+  color: #ffffff;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+}
